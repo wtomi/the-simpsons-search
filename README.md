@@ -10,7 +10,7 @@ The application uses Lucene for creating the index of the scripts and Ratpack fo
 
 To run the application use command:
 
-```./gradlew rum```
+```./gradlew run```
 
 The server will be running on port 5050
 
