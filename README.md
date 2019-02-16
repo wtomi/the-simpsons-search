@@ -4,7 +4,7 @@
 
 This is a simple REST application for searching phrases in the episodes' scripts of The Simpsons series.
 The application fetches scripts from a web page by parsing html markup.
-The application uses Lucene for creating the index of the scripts and Ratpack for creating endpoints.
+The application uses Lucene for creating the index of the scripts and Ratpack for creating simple web service.
 
 ## Running
 
