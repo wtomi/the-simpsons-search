@@ -8,7 +8,7 @@ The application uses Lucene for creating the index of the scripts and Ratpack fo
 
 ## Running
 
-To tun the application use command:
+To run the application use command:
 
 ```./gradlew rum```
 
@@ -18,13 +18,13 @@ The server will be running on port 5050
 
 ### Querying
 
-http://localhost:5050/query?phrase=<your-phrase>
+http://localhost:5050/query?phrase= <your-phrase>
 
 For example, if you want to search for a phrase "hearing things", the request should look like this:
 
 http://localhost:5050/query?phrase=hearing%20things
 
-The endpoint returns list of URLs linking to a page with a script containing the searched phrase.
+The endpoint returns list of URLs linking to pages whose scripts contain the searched phrase.
 
 ### Removing index
 
@@ -34,4 +34,4 @@ http://localhost:5050/remove-index
 
 http://localhost:5050/create-index
 
-This operating takes a while. Look ar logs to see information about indexing consecutive episodes' scripts.
+This operating takes a while. Look at server logs to see information about indexing consecutive episodes.
