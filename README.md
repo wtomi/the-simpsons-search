@@ -2,7 +2,7 @@
 
 ## Overview
 
-is a simple REST application for searching phrases in the episodes' scripts of The Simpsons series.
+This is a simple REST application for searching phrases in the episodes' scripts of The Simpsons series.
 To obtained all the scripts the application parse data from a web page containing the scripts.
 The application uses Lucene for creating the index of the scripts and Ratpack for creating endpoints.
 
